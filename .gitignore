@@ -1,0 +1,68 @@
+# === Python (Django) ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific files
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# Migrations (optional, if you prefer not to track them)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# === React (Frontend) ===
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# === System Files ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === IDEs and Editors ===
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# === Testing ===
+coverage/
+*.cover
+*.pyc
+*.pyo
+.pytest_cache/
+
+# === Other ===
+*.swp
