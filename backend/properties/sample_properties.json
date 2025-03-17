@@ -1,0 +1,35 @@
+[
+  {
+    "model": "properties.property",
+    "fields": {
+      "owner": 3,
+      "title": "Cozy Studio in NYC",
+      "description": "A small yet cozy studio.",
+      "price_per_night": 80,
+      "location": "New York",
+      "available": true
+    }
+  },
+  {
+    "model": "properties.property",
+    "fields": {
+      "owner": 3,
+      "title": "Luxury Villa in LA",
+      "description": "Spacious villa with a pool.",
+      "price_per_night": 250,
+      "location": "Los Angeles",
+      "available": true
+    }
+  },
+  {
+    "model": "properties.property",
+    "fields": {
+      "owner": 3,
+      "title": "Beachfront Bungalow in Miami",
+      "description": "A relaxing bungalow right by the beach.",
+      "price_per_night": 150,
+      "location": "Miami",
+      "available": false
+    }
+  }
+]
