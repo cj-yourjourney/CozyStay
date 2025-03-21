@@ -2,34 +2,40 @@
   {
     "model": "properties.property",
     "fields": {
-      "owner": 3,
-      "title": "Cozy Studio in NYC",
-      "description": "A small yet cozy studio.",
-      "price_per_night": 80,
-      "location": "New York",
-      "available": true
+      "owner":3,
+      "title": "Modern Apartment in San Francisco",
+      "description": "A stylish apartment with stunning city views.",
+      "price_per_night": 120,
+      "location": "San Francisco",
+      "available": true,
+      "created_at": "2025-03-17T12:00:00Z",
+      "image": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg"
     }
   },
   {
     "model": "properties.property",
     "fields": {
       "owner": 3,
-      "title": "Luxury Villa in LA",
-      "description": "Spacious villa with a pool.",
-      "price_per_night": 250,
-      "location": "Los Angeles",
-      "available": true
+      "title": "Seaside Cottage in Malibu",
+      "description": "A charming cottage with oceanfront views.",
+      "price_per_night": 300,
+      "location": "Malibu",
+      "available": true,
+      "created_at": "2025-03-17T12:00:00Z",
+      "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
     }
   },
   {
     "model": "properties.property",
     "fields": {
       "owner": 3,
-      "title": "Beachfront Bungalow in Miami",
-      "description": "A relaxing bungalow right by the beach.",
-      "price_per_night": 150,
-      "location": "Miami",
-      "available": false
+      "title": "Rustic Cabin in the Mountains",
+      "description": "A cozy retreat surrounded by nature.",
+      "price_per_night": 180,
+      "location": "Aspen",
+      "available": false,
+      "created_at": "2025-03-17T12:00:00Z",
+      "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
     }
   }
 ]
