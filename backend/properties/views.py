@@ -12,3 +12,4 @@ def property_list(request):
     serializer = PropertySerializer(properties, many=True)
 
     return Response(serializer.data)
+
