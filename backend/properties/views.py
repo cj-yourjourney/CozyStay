@@ -13,3 +13,14 @@ def property_list(request):
 
     return Response(serializer.data)
 
+
+@api_view(["GET"])
+def property_detail(request, id):
+    try:
+        # Get the property by the provided id
+        property_instance = Property.objects.get(id=id)
+        serializer = PropertySerializer(property_instance)
+        return Response(serializer.data)
+    except Property.DoesNotExist:
+        # If the property doesn't exist, return an error message
+        return Response({"error": "Property not found"}, status=404)
